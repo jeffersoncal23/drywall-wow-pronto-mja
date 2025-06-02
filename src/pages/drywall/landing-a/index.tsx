@@ -1,8 +1,8 @@
 
 import { Hero } from './components/Hero';
+import { GaleriaSection } from './components/GaleriaSection';
 import { DiferenciaisSection } from './components/DiferenciaisSection';
 import { BeneficiosSection } from './components/BeneficiosSection';
-import { GaleriaSection } from './components/GaleriaSection';
 import { DepoimentosSection } from './components/DepoimentosSection';
 import { CtaSection } from './components/CtaSection';
 import { Footer } from './components/Footer';
@@ -14,9 +14,9 @@ const DrywallLandingA = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <GaleriaSection />
       <DiferenciaisSection />
       <BeneficiosSection />
-      <GaleriaSection />
       <DepoimentosSection />
       <CtaSection />
       <Footer />
